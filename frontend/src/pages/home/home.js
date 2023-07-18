@@ -9,7 +9,7 @@ export default function Home() {
         <Container fluid>
             <Row>
                 <Col sm={8}>
-                    1
+                    <a href="/materii">Materii</a>
                 </Col>
                 <Col sm={4}>
                     2
