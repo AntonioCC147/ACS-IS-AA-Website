@@ -1,0 +1,37 @@
+[
+    {
+      "materie": "Matematici Speciale - MS",
+      "credite": "5",
+      "curs": "Ana",
+      "seminar": "Ioana si Ilinca",
+      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+    },
+    {
+      "materie": "Proiectarea Algoritmilor - PA",
+      "credite": "5",
+      "curs": "Ana",
+      "seminar": "Ioana si Ilinca",
+      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+    },
+    {
+      "materie": "Electrotehnică - ELTH",
+      "credite": "5",
+      "curs": "Ana",
+      "seminar": "Ioana si Ilinca",
+      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+    },
+    {
+      "materie": "Fizică",
+      "credite": "5",
+      "curs": "Ana",
+      "seminar": "Ioana si Ilinca",
+      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+    },
+    {
+      "materie": "Chimie",
+      "credite": "5",
+      "curs": "Ana",
+      "seminar": "Ioana si Ilinca",
+      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+    }
+]
