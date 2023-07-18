@@ -1,23 +1,23 @@
 [
     {
-      "materie": "Grafică Asistată de Calculator - GAC",
-      "credite": "5",
+      "materie": "Grafică Asistată de Calculator",
+      "credite": "2",
       "curs": "Ana",
       "seminar": "Ioana si Ilinca",
       "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
     },
     {
-      "materie": "Informatică Aplicată 1 - IA1",
-      "credite": "5",
+      "materie": "Informatică Aplicată 1",
+      "credite": "2",
       "curs": "Ana",
       "seminar": "Ioana si Ilinca",
       "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
     },
     {
-      "materie": "Informatică Aplicată 2 - IA2",
-      "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "materie": "Informatică Aplicată 2",
+      "credite": "2",
+      "curs": "Stamatescu Grigore",
+      "seminar": "Andreea",
+      "descriere": "Cursul a fost ok cat de cat. M-a ajutat ca am fost la curs ca m-a stiut profu la fata si mi-a mai dat un punct in plus.(face prezenta uneori). Invatati despre Matlab si cum se calculeaza erorile din statistici. La laborator se pune mai mult accentul pe Matlab si mai putin pe teoria despre erori. Puteti sa faceti labul dinainte, dar sa nu va prinda ca se supara. Examenul e acelasi de ani de zile, la fel si colocviu. Se iau doar note mari, nu pica nimeni."
     }
 ]
