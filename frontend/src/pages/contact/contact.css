@@ -1,0 +1,46 @@
+.title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.contactContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(31, 30, 30);
+
+    height: auto;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.contactButton {
+    margin-top: 20px;
+
+    font-size: 20px !important;
+
+    width: 250px;
+    height: 50px;
+
+    text-align: center;
+}
+
+.CAPTCHA {
+    margin-top: 20px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formAppearance {
+    border: 1px solid #4b4b4b !important;
+}
