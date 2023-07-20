@@ -11,6 +11,7 @@
     "bootstrap": "^5.2.3",
     "emailjs": "^4.0.2",
     "formik": "^2.4.2",
+    "mdb-react-ui-kit": "^6.1.0",
     "particles.js": "^2.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",

@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "mdb-react-ui-kit": "^6.1.0"
+  }
+}
