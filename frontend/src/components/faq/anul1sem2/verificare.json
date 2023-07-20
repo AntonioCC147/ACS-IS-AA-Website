@@ -1,23 +1,23 @@
 [
     {
-      "materie": "Informatică Aplicată 3 (Managementul Documentelor) - IA3",
-      "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "materie": "Informatică Aplicată 3 (Managementul Documentelor)",
+      "credite": "3",
+      "curs": "Olteanu Ariana",
+      "seminar": "Vlad",
+      "descriere": "Faceți de toate aici, învățați office, latex, html, xml, json. Destul de folositoare materia. La curs veneam putini dar mie îmi plăcea mai mult sa ascult la curs decât sa citesc acasă cursul. nu făcea prezenta. La lab probabil o sa faceti cu același prof care mie mi s-a părut dezinteresat... O sa aveți de făcut mai multe teme ușoare. O sa fie 2 teste unul din latex și reguli ale prezentărilor și unul din html și xml. Se și copiază dar sunt și ușoare."
     },
     {
       "materie": "Limbă Străină 2 (Engleză)",
-      "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "credite": "2",
+      "curs": "Catană",
+      "seminar": "Catană",
+      "descriere": "La fel doar ca o sa fie o tema si un colocviu. La tema am avut de vorbit despre un departament a unei firme ca si cum am fi sefii acelui departament. Chat FTW. Si la colocviu a dat aceleasi subiecte de ani de zile."
     },
     {
       "materie": "Educație Fizică și Sport 2",
-      "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "credite": "2",
+      "curs": "Raluca",
+      "seminar": "Raluca",
+      "descriere": "La fel ca pe primul semstru doar ca o sa faceti mai putin sport ca o sa ploua."
     }
 ]

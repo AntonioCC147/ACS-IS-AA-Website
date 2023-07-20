@@ -1,37 +1,44 @@
 [
     {
-      "materie": "Matematici Speciale - MS",
+      "materie": "Matematici Speciale",
       "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "curs": "Costache Luminița",
+      "seminar": "Tănase / Cânepă",
+      "descriere": "Ce sa zic... Dupa cate se spun despre materia asta. E horror. La curs merge super repede si la seminar la fel. E prea multa materie pusa in putin timp. Invatati pe parcurs si axati-va pe partial ca la examen e teroare cu probabilitatile alea. Se copiaza lejer, nu verifica foi, mai iese din sala, mai un telefon. Nu face prezenta la curs dar a facut la ultimul curs si te tinea minte. Cei cu 43 ii trecea daca ii stia de la curs iar daca nu te stia te mai punea sa faci acolo un exercitiu sa te treaca. Ca fire profa e super ok, dar viteza la curs e buba. Nu poti sa si scii si sa si intelegi chestii total noi. Poate decat daca ai fost olimpic la mate idk. La seminar daca iesi la tabla de cateva ori si nu ii faci zile fripe profei iei 10 puncte (care la materia asta e mana cereasca)."
     },
     {
-      "materie": "Proiectarea Algoritmilor - PA",
+      "materie": "Proiectarea Algoritmilor",
       "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "curs": "Băltoiu Andra",
+      "seminar": "Băltoiu Andra / Ciurea Marius",
+      "descriere": "Dacă pe primul semestru la PCLP a fost lejer aici chiar a fost de învățat. O sa învățați de la cum se lucrează cu biblioteci în c, good practices și Pana la cei mai ciudați algoritmi daia de pe leetcode. Cursul e hit or miss, profa e destul de noua și comparativ cu doamna Saru nu explica la fel de bine dar mie unul mi-a plăcut și cursul acesta. Explica algitmii pas cu pas, face exerciții rezolvate la tabla. Nu face prezenta la curs. La laborator eu m-am tot schimbat între zile asa ca am făcut cu mai mulți laboranti. (nu recomand sa va mutați cum am făcut eu). In mare parte profa e și ea la lab și în rest sunt studenți mai mari. Labu mi s-a părut la început destul de ușor dar deja pe la jumătate era hardcore de ajunsesem sa îl fac dinainte. Fiți activi ca profa ajuta dacă o întrebați dar nici sa o întrebați fiecare nimic. Am observat ca încearcă sa îți dea cât mai puține indicii astfel încât tot tu sa îți dai seama de probleme, nu îți dă mura-n gura soluția. Am avut un test de 10 puncte de teorie care a fost de bun simt și o tema de 20 de puncte. Faceti-o din timp ca nu e de joaca. Am înțeles ca se cam prindea cine o copia. Profa a zis ca le baga și la antiplagiat dar nu știu cât de real e asta. Examenul a fost openbook(doar foi caiete) și a fost și el de bun simt. Dacă va place sa grind-uiti pe leetcode cursul asta o sa fie perfect pt voi."
     },
     {
-      "materie": "Electrotehnică - ELTH",
+      "materie": "Electrotehnică",
       "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "curs": "Stănculescu Marilena",
+      "seminar": "Stănculescu Marilena, Niculae Dragoș, Bobaru Lavinia, Bucată Victor",
+      "descriere": "Se face electricitatea din fizica doar ca mai detaliata. Cursul destul de interesant, dar la noi a fost pus târziu și cam muream de somn. Tine cont la evaluări dacă mergeți la curs si mai face uneori prezenta. Una dintre cele mai pe bune profe de pana acum. La laborator am făcut cu decanul de la Inginerie Electrica, un domn de nota 10. Ne explica uneori niște exerciții asa bine ca acasă nici nu le mai repetam. O sa fie un test din CC și unul din CA la lab + colocviu (aici dați din PSPICE, ceva program de simulat circuite). Subiectele sunt ușoare, doar sa ai chef sa înveți pentru ele. Examenul l-am dat pe calculator și s-au știut o mare parte din subiecte și profa a zis ca la anu le schimba (sorry). Dar orice v-ar da axați-va mult pe cum se fac problemele ca acolo e grosu, la teorie am învățat o groaza și oricum a dat niște întrebări de trebuie super detaliat teoria. La sfârșit pe cine știa de la curs a vrut sa ii mai asculte asa ca fiți pregătiți și de asta dacă știți ca a-ți fost activi."
     },
     {
       "materie": "Fizică",
       "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "curs": "Ionică Romeo",
+      "seminar": "Vlădoiu / Încă o doamnă",
+      "descriere": "Spre surprinderea mea nu MS-ul a fost Final Boss ci Fizica. La curs profesorul e simpatic și rar mai zice și lucruri interesante dar în mare parte preda fizica exact asa cum nu mi-a plăcut niciodată - scris pe tabla chestii fără sa fie explicate. A și mai adăugați faptul ca lucrurile astea predate sunt si mai grele decât ce era în liceu. Asa în mare mergeți la curs doar pt prezenta și faceți altceva în timpul ala ca nu prea poți sa înțelegi mare lucru poate doar dacă îți place fizica mult de tot. La laborator e ori o femeie ori un bărbat + romica. Teroare la ambii laboranti. Decât romica e ok la lab. Te pune sa faci niște experimente și îți dau acolo niște explicații dar în 90% din cazuri nu au fost suficiente explicațiile. Noi am dat și un mini test de teorie dar la lab și fiind prima grupa nu am scris nimic :)). La colocviu o sa dați cu laborantul cu care ați făcut. O sa fie din experimentele de la lab. Trebuie sa știi cum sa o/îl rizz-uiesti bine pe laborant/a. Examenul este mai mult psihologic decât altceva. Aprox 50 de subiecte de învățat. A fost aproape imposibil de copiat (bine ca am picat pe subiect) dar măcar romica te ajuta dându-ti cât mai multe indicații. La unii aproape ca le-a rezolvat biletul integral."
     },
     {
       "materie": "Chimie",
-      "credite": "5",
-      "curs": "Ana",
-      "seminar": "Ioana si Ilinca",
-      "descriere": "Sincer să spun, prima interacțiune cu facultatea a fost destul de șocantă. A fost un mediu cu totul și cu totul nou, iar provocările erau evidente. Am reușit încetul cu încetul să trec peste și să mă obșinuiesc cu tot ce înseamnă viața de facultate."
+      "credite": "3",
+      "curs": "Golgovici Florentina",
+      "seminar": "Golgovici Florentina / Încă un domn",
+      "descriere": "La curs face prezenta (puncte în plus pe lângă cele 100) asa ca știți voi mai bine cum faceți cu prezentele alea. Profa e foarte drăguță, ii trece pe toți și va da o suta de posibilități sa luați nota mare. În mare parte cursul e bun doar pt exercițiile rezolvate pentru examen și parțial. În rest doar citește ce e scris în curs. Partialul a fost pe moodle deci s-a copiat în draci. Puteai face o prezentare sau un proiect pe anumite teme pentru puncte în plus. Eu și cu un prieten am făcut în unity un joculeț drag and drop despre Un experiment de la lab și a zis profa sa venim cu el la sesiunea de comunicări și nu doar ca am luat mențiune dar ne-a mai dat și o groaza de puncte în plus. La lab se fac experimente lejere, în juma de ora îl termini. La Colocviu nu ești obligat sa vii și chiar trebui sa înveți ca nu prea poți copia în laboratoarele alea asa mici. La examen ai de făcut probleme și teorie. La fel ca la fizica te ajuta profa sa scoți 5-ul respectiv sa iei cât mai mult."
+    },
+    {
+      "materie": "Pedagogie I (Modulul Psihopedagogic, Opțional)",
+      "credite": "5 extra",
+      "curs": "-",
+      "seminar": "-",
+      "descriere": "A fost mai naspa decat in semestrul I, tocmai pentru ca nu am fost la cursuri deloc (nici pe profa nu am vazut-o vreodata la fata) pentru ca ni se suprapunea orarul. La seminar... eram toti intr-o sala din AN si eram mai multi gramada si nu se intelegea nimic."
     }
 ]
