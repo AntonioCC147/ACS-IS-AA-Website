@@ -120,11 +120,11 @@ function App() {
 									</g>
 								</svg>
 								<Row>
-									<Col className="my-auto" md={6}>
+									<Col className="my-auto" md={6} style={{paddingTop: "10%"}}>
 										<p className="titleHome glow">Automatică și Informatică Aplicată</p>
 										<p className="text">Bun venit pe site-ul unde poți afla părerile #pebune ale studenților automatiști de la IS.</p>
 									</Col>
-									<Col className="my-auto" md={6}>
+									<Col className="my-auto" md={6} style={{paddingTop: "7%"}}>
 										<Image className="image" src={FacultyImage} alt="Faculty" fluid />
 									</Col>
 								</Row>
@@ -164,9 +164,9 @@ function App() {
 						<div className="section background3">
 							<Container className='containerHome'>
 								<Row className="justify-content-md-center">
-									<Col md={6}>
+									<Col md={6} style={{paddingTop: "65px"}}>
 										<Card>
-											<Card.Img variant="top" src={contribution} />
+											<img src={contribution} alt=""/>
 											<Card.Body>
 												<Card.Title>Contribuie</Card.Title>
 												<Card.Text>
@@ -177,8 +177,8 @@ function App() {
 										</Card>
 									</Col>
 								</Row>
-								<Footer/>
 							</Container>
+							<Footer/>
 						</div>
 					</ReactFullpage.Wrapper>
 				);
