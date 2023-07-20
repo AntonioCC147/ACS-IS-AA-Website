@@ -1,0 +1,213 @@
+.background2 {
+    background: url(../../assets/home/bg2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background3 {
+    background: url(../../assets/home/bg3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.containerHome {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dot colors */
+#fp-nav ul li:nth-child(1) a span,
+.fp-slidesNav ul li:nth-child(1) a span {
+    background: #22A699;
+}
+
+#fp-nav ul li:nth-child(2) a span,
+.fp-slidesNav ul li:nth-child(2) a span {
+    background: #F2BE22;
+}
+
+#fp-nav ul li:nth-child(3) a span,
+.fp-slidesNav ul li:nth-child(3) a span {
+    background: #F24C3D;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.controls {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+/* Style for Cards */
+.card {
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: transform .2s;
+    /* Animation */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for Image */
+
+.fp-watermark {
+    display: none;
+}
+
+.my-auto {
+    margin: auto 0;
+}
+
+.titleHome {
+    color: #e6e6e6;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 1.25;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    padding-top: 1.5em;
+    color: #6c757d;
+    font-size: 1.5em;
+    line-height: 2;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.image {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: rgba(167, 219, 212, 0.8) -5px 5px, rgba(167, 219, 212, 0.5) -10px 10px, rgba(167, 219, 212, 0.4) -15px 15px, rgba(167, 219, 212, 0.2) -20px 20px, rgba(167, 219, 212, 0.05) -25px 25px;
+}
+
+.glow {
+    color: #444;
+    text-shadow:
+        1px 0px 1px #ccc, 0px 1px 1px #eee,
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+}
+
+.butonPagina2 {
+    width: 150px;
+    background-color: #F29727 !important;
+    /* Replace with your desired color */
+    border: none !important;
+    color: white !important;
+    /* Replace with your desired text color */
+}
+
+.butonPagina2:hover {
+    background-color: #aa691a !important;
+    /* Replace with your desired hover color */
+}
+
+.butonPagina3 {
+    width: 150px;
+    background-color: #F24C3D !important;
+    /* Replace with your desired color */
+    border: none !important;
+    color: white !important;
+    /* Replace with your desired text color */
+}
+
+.butonPagina3:hover {
+    background-color: #882219 !important;
+    /* Replace with your desired hover color */
+}
+
+.svg-background {
+    z-index: -1;
+    
+}
+
+#home {
+    clip-path: url(#cache);
+}
+
+#red {
+    fill: none;
+    opacity: 0.15;
+    stroke: #F24C3D;
+    stroke-width: 12;
+    stroke-miterlimit: 10;
+    animation: show 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #22A699;
+    stroke-width: 12;
+    stroke-miterlimit: 10;
+    animation: show 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#light-blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #F29727;
+    stroke-width: 6;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 800;
+    animation: draw 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0.15;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0.15;
+    }
+}
