@@ -1,0 +1,54 @@
+.custom-navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo {
+    height: 60px;
+    width: auto;
+}
+
+.navbar-links .navbar-link1,
+.navbar-links .navbar-link2,
+.navbar-links .navbar-link3 {
+    margin-right: 5em;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-links .navbar-link1:hover {
+    color: #22A699;
+}
+
+.navbar-links .navbar-link2:hover {
+    color: #F2BE22;
+}
+
+.navbar-links .navbar-link3:hover {
+    color: #F24C3D;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .navbar-links {
+        justify-content: flex-start;
+    }
+}
+
+.navbar-contact {
+    font-weight: 600 !important;
+    color: #22A699 !important;
+    font-size: 20px !important;
+}
+
+.navbar-contact:hover {
+    color: #F24C3D !important;
+}
+
+

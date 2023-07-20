@@ -1,27 +1,23 @@
 import React from 'react';
-
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import './navbar.css';
 
-function NavigationBar() {
+import logo from '../../assets/navbar/Sigla_ACS.png';
+
+function MyNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar fixed="top" collapseOnSelect expand="lg" className="custom-navbar">
       <Container>
-        <Navbar.Brand href="#home">
-          <img
-            src="/path/to/your/logo.jpg"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt="Logo"
-          />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#insight">Insight Materii</Nav.Link>
-            <Nav.Link href="#drive">Drive-ul Minune</Nav.Link>
-            <Nav.Link href="#contribute">Contribuie</Nav.Link>
+        <Navbar.Brand href="#home"><img src={logo} alt="Sigla ACS" className="navbar-logo"/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto navbar-links">
+            <Nav.Link className="navbar-link1" href="#text1">Home</Nav.Link>
+            <Nav.Link className="navbar-link2" href="#text2">Insight Materii</Nav.Link>
+            <Nav.Link className="navbar-link3" href="#text3">Drive</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link className="navbar-contact" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -29,4 +25,4 @@ function NavigationBar() {
   );
 }
 
-export default NavigationBar;
+export default MyNavbar;
