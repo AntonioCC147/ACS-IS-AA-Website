@@ -8,6 +8,7 @@ import drive from '../../assets/home/google-drive.png';
 import review from '../../assets/home/customer-review.png';
 import contribution from '../../assets/home/contribution.png';
 
+import Footer from "../../components/footer/footer";
 
 function App() {
 	return (
@@ -120,7 +121,7 @@ function App() {
 								</svg>
 								<Row>
 									<Col className="my-auto" md={6}>
-										<p className="titleHome glow">Automatică și Informatică Industrială</p>
+										<p className="titleHome glow">Automatică și Informatică Aplicată</p>
 										<p className="text">Bun venit pe site-ul unde poți afla părerile #pebune ale studenților automatiști de la IS.</p>
 									</Col>
 									<Col className="my-auto" md={6}>
@@ -134,6 +135,18 @@ function App() {
 								<Row className="justify-content-md-center">
 									<Col sm={4} style={{marginRight: '10%'}}>
 										<Card>
+											<Card.Img variant="top" src={review} />
+											<Card.Body>
+												<Card.Title>Insight Materii</Card.Title>
+												<Card.Text>
+													Aici puteți găsi mai multe păreri ale studenților despre materiile pe care le-ați avut sau le veți avea. Nu uitați să contribuiți și voi!
+												</Card.Text>
+												<Button className='butonPagina2' href="/materii">Click</Button>
+											</Card.Body>
+										</Card>
+									</Col>
+									<Col sm={4}>
+										<Card>
 											<Card.Img variant="top" src={drive} />
 											<Card.Body>
 												<Card.Title>Drive-ul Minune</Card.Title>
@@ -144,38 +157,27 @@ function App() {
 											</Card.Body>
 										</Card>
 									</Col>
-									<Col sm={4}>
-										<Card>
-											<Card.Img variant="top" src={review} />
-											<Card.Body>
-												<Card.Title>Insight Materii</Card.Title>
-												<Card.Text>
-													Aici puteți găsi mai multe păreri ale studenților despre materiile pe care le-ați avut sau le veți avea. Nu uitați să contribuiți și voi!
-												</Card.Text>
-												<Button className='butonPagina2'>Click</Button>
-											</Card.Body>
-										</Card>
-									</Col>
+									
 								</Row>
 							</Container>
 						</div>
 						<div className="section background3">
-
 							<Container className='containerHome'>
 								<Row className="justify-content-md-center">
 									<Col md={6}>
-										<Card style={{}}>
+										<Card>
 											<Card.Img variant="top" src={contribution} />
 											<Card.Body>
 												<Card.Title>Contribuie</Card.Title>
 												<Card.Text>
 													Ți-am fost de ajutor și vrei să contribui și tu la rândul tău? Aici poți să ne trimiți materialele tale sau review-ul de an.
 												</Card.Text>
-												<Button className='butonPagina3'>Click</Button>
+												<Button className='butonPagina3' href="/contact">Click</Button>
 											</Card.Body>
 										</Card>
 									</Col>
 								</Row>
+								<Footer/>
 							</Container>
 						</div>
 					</ReactFullpage.Wrapper>
