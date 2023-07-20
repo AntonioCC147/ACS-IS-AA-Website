@@ -133,7 +133,7 @@ function App() {
 						<div className="section background2">
 							<Container className='containerHome'>
 								<Row className="justify-content-md-center">
-									<Col sm={4} style={{marginRight: '10%'}}>
+									<Col sm={4} style={{marginRight: '10%', marginTop: "60px"}}>
 										<Card>
 											<Card.Img variant="top" src={review} />
 											<Card.Body>
@@ -145,15 +145,15 @@ function App() {
 											</Card.Body>
 										</Card>
 									</Col>
-									<Col sm={4}>
+									<Col sm={4} style={{marginTop: "60px"}}>
 										<Card>
-											<Card.Img variant="top" src={drive} />
+											<Card.Img variant="top" src={drive}/>
 											<Card.Body>
 												<Card.Title>Drive-ul Minune</Card.Title>
 												<Card.Text>
 													Acest drive conține o mulțime de materiale adunate pe parcursul a mai multi ani, de la subiecte din anii trecuți la cheat-sheat-uri făcute de alți studenți.
 												</Card.Text>
-												<Button className='butonPagina2'>Click</Button>
+												<Button className='butonPagina2' target="blank" href="https://drive.google.com/drive/folders/1eMQ8SWBM3jM8GEOB7-n3FvW93oXZtg1Z?usp=drive_link">Click</Button>
 											</Card.Body>
 										</Card>
 									</Col>

@@ -60,7 +60,7 @@ export default function Contact() {
 
     return (
         <Container>
-            <p className="title">Contactează-ne</p>
+            <p className="title" style={{marginTop: "8%"}}><b>Contactează-ne</b></p>
             <Formik
                 initialValues={{
                     user_name: '',

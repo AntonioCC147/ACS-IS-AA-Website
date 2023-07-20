@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .background3 {
     background: url(../../assets/home/bg3.jpeg);
     background-size: cover;
@@ -18,7 +19,6 @@
     justify-content: center;
 }
 
-/* Dot colors */
 #fp-nav ul li:nth-child(1) a span,
 .fp-slidesNav ul li:nth-child(1) a span {
     background: #22A699;
@@ -44,19 +44,16 @@ body {
     left: 50px;
 }
 
-/* Style for Cards */
 .card {
     margin-top: 20px;
     border: none;
     border-radius: 10px;
     transition: transform .2s;
-    /* Animation */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
     transform: scale(1.1);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -64,8 +61,6 @@ body {
     padding: 20px;
     text-align: center;
 }
-
-/* Style for Image */
 
 .fp-watermark {
     display: none;
@@ -119,34 +114,27 @@ body {
 .butonPagina2 {
     width: 150px;
     background-color: #F29727 !important;
-    /* Replace with your desired color */
     border: none !important;
     color: white !important;
-    /* Replace with your desired text color */
 }
 
 .butonPagina2:hover {
     background-color: #aa691a !important;
-    /* Replace with your desired hover color */
 }
 
 .butonPagina3 {
     width: 150px;
     background-color: #F24C3D !important;
-    /* Replace with your desired color */
     border: none !important;
     color: white !important;
-    /* Replace with your desired text color */
 }
 
 .butonPagina3:hover {
     background-color: #882219 !important;
-    /* Replace with your desired hover color */
 }
 
 .svg-background {
     z-index: -1;
-    
 }
 
 #home {

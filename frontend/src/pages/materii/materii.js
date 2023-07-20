@@ -3,10 +3,12 @@ import Row from 'react-bootstrap/Row';
 
 import FAQ from '../../components/faq/faq';
 
+import './materii.css';
+
 export default function Materii() {
     return (
         <Container>
-            <h1 className="text-center">Materii - Feedback</h1>
+            <h1 className="text-center" style={{marginTop: "8%"}}>Materii - Feedback</h1>
             <Row>
                 <FAQ/>
             </Row>
