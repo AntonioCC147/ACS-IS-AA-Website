@@ -1,3 +1,9 @@
+.backgroundContact {
+    background: url(../../assets/contact/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .title {
     font-size: 36px;
     text-align: center;

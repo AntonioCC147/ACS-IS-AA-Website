@@ -59,79 +59,81 @@ export default function Contact() {
     };
 
     return (
-        <Container>
-            <p className="title" style={{marginTop: "8%"}}><b>Contactează-ne</b></p>
-            <Formik
-                initialValues={{
-                    user_name: '',
-                    user_email: '',
-                    message: '',
-                }}
-                validationSchema={validationSchema}
-                onSubmit={(values, { setSubmitting, resetForm }) => {
-                    if (!isVerify || !values.user_name || !values.user_email || !values.message) {
-                        setSubmitting(false);
-                        return;
-                    }
-                    sendEmail(values);
-                    resetForm();
-                    handleModalShow();
-                }}
-            >
-                {({ isSubmitting }) => (
-                    <Form className="contactContainer">
-                        <div className="text-center">
-                            <img src={ContactImg} style={{ width: '300px' }} alt="Contact" />
-                        </div>
-                        <Row>
-                            <Col sm={6}>
-                                <Row>
-                                    <b><label htmlFor="user_name">Nume:</label></b>
-                                    <Field type="text" name="user_name" className="form-control formAppearance" />
-                                    <ErrorMessage name="user_name" component="div" className="error-message" />
-                                    <b><label htmlFor="user_email">Email:</label></b>
-                                    <Field type="email" name="user_email" className="form-control formAppearance" />
-                                    <ErrorMessage name="user_email" component="div" className="error-message" />
-                                </Row>
-                                <Row>
-                                    <div className="CAPTCHA">
-                                        <ReCAPTCHA sitekey="6LcqbzgnAAAAAPnOkwQCkaTqVl_gV22aExZHjMIJ" onChange={onChange} />
-                                    </div>
-                                </Row>
-                            </Col>
-                            <Col sm={6}>
-                                <b><label htmlFor="message">Mesaj:</label></b>
-                                <Field as="textarea" name="message" className="form-control formAppearance" rows="8" cols="50" />
-                                <ErrorMessage name="message" component="div" className="error-message" />
-                            </Col>
-                        </Row>
-                        <Row className="text-center">
-                            <div className="buttonContainer">
-                                <Button
-                                    variant="dark"
-                                    type="submit"
-                                    className="d-flex align-items-center justify-content-center contactButton"
-                                    disabled={isSubmitting || isFormSubmitted}
-                                >
-                                    {isFormSubmitted ? 'Trimite' : 'Trimite'}
-                                </Button>
+        <div className="backgroundContact">
+            <Container>
+                <p className="title" style={{paddingTop: "7%"}}><b>Contactează-ne</b></p>
+                <Formik
+                    initialValues={{
+                        user_name: '',
+                        user_email: '',
+                        message: '',
+                    }}
+                    validationSchema={validationSchema}
+                    onSubmit={(values, { setSubmitting, resetForm }) => {
+                        if (!isVerify || !values.user_name || !values.user_email || !values.message) {
+                            setSubmitting(false);
+                            return;
+                        }
+                        sendEmail(values);
+                        resetForm();
+                        handleModalShow();
+                    }}
+                >
+                    {({ isSubmitting }) => (
+                        <Form className="contactContainer">
+                            <div className="text-center">
+                                <img src={ContactImg} style={{ width: '300px' }} alt="Contact" />
                             </div>
-                        </Row>
-                        <Modal show={showModal} onHide={handleModalClose}>
-                            <Modal.Header closeButton>
-                                <Modal.Title>Email trimis!</Modal.Title>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <p>Email-ul a fost trimis cu succes!</p>
-                                <p>În cel mai scurt timp posibil veți primi un răspuns la mesaj.</p>
-                            </Modal.Body>
-                            <Modal.Footer>
-                                <Button variant="secondary" onClick={handleModalClose}>Închide</Button>
-                            </Modal.Footer>
-                        </Modal>
-                    </Form>
-                )}
-            </Formik>
-        </Container>
+                            <Row>
+                                <Col sm={6}>
+                                    <Row>
+                                        <b><label htmlFor="user_name">Nume:</label></b>
+                                        <Field type="text" name="user_name" className="form-control formAppearance" />
+                                        <ErrorMessage name="user_name" component="div" className="error-message" />
+                                        <b><label htmlFor="user_email">Email:</label></b>
+                                        <Field type="email" name="user_email" className="form-control formAppearance" />
+                                        <ErrorMessage name="user_email" component="div" className="error-message" />
+                                    </Row>
+                                    <Row>
+                                        <div className="CAPTCHA">
+                                            <ReCAPTCHA sitekey="6LcqbzgnAAAAAPnOkwQCkaTqVl_gV22aExZHjMIJ" onChange={onChange} />
+                                        </div>
+                                    </Row>
+                                </Col>
+                                <Col sm={6}>
+                                    <b><label htmlFor="message">Mesaj:</label></b>
+                                    <Field as="textarea" name="message" className="form-control formAppearance" rows="8" cols="50" />
+                                    <ErrorMessage name="message" component="div" className="error-message" />
+                                </Col>
+                            </Row>
+                            <Row className="text-center">
+                                <div className="buttonContainer">
+                                    <Button
+                                        variant="dark"
+                                        type="submit"
+                                        className="d-flex align-items-center justify-content-center contactButton"
+                                        disabled={isSubmitting || isFormSubmitted}
+                                    >
+                                        {isFormSubmitted ? 'Trimite' : 'Trimite'}
+                                    </Button>
+                                </div>
+                            </Row>
+                            <Modal show={showModal} onHide={handleModalClose}>
+                                <Modal.Header closeButton>
+                                    <Modal.Title>Email trimis!</Modal.Title>
+                                </Modal.Header>
+                                <Modal.Body>
+                                    <p>Email-ul a fost trimis cu succes!</p>
+                                    <p>În cel mai scurt timp posibil veți primi un răspuns la mesaj.</p>
+                                </Modal.Body>
+                                <Modal.Footer>
+                                    <Button variant="secondary" onClick={handleModalClose}>Închide</Button>
+                                </Modal.Footer>
+                            </Modal>
+                        </Form>
+                    )}
+                </Formik>
+            </Container>
+        </div>
     );
 }

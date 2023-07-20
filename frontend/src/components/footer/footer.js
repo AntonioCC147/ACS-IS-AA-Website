@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-k
 
 export default function App() {
     return (
-        <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px", paddingTop: "1px"}}>
+        <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{paddingTop: "1px"}}>
             <section>
                 <MDBContainer className="text-center text-md-start mt-5" style={{color: "gray"}}>
                     <MDBRow className="mt-3">

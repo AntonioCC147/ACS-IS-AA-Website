@@ -7,11 +7,13 @@ import './materii.css';
 
 export default function Materii() {
     return (
+        <div className="backgroundMaterii">
         <Container>
-            <h1 className="text-center" style={{marginTop: "8%"}}>Materii - Feedback</h1>
+            <h1 className="text-center" style={{paddingTop: "7%"}}>Materii - Feedback</h1>
             <Row>
                 <FAQ/>
             </Row>
         </Container>
+        </div>
     )
 }
