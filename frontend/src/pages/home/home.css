@@ -73,7 +73,8 @@ body {
 .titleHome {
     color: #e6e6e6;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2rem;
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
     line-height: 1.25;
     margin-left: 1em;
     margin-right: 1em;
@@ -84,7 +85,8 @@ body {
 .text {
     padding-top: 1.5em;
     color: #6c757d;
-    font-size: 1.5em;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
     line-height: 2;
     text-align: center;
     margin-left: 1em;
@@ -97,6 +99,12 @@ body {
     background-color: white;
     border-radius: 5%;
     box-shadow: rgba(167, 219, 212, 0.8) -5px 5px, rgba(167, 219, 212, 0.5) -10px 10px, rgba(167, 219, 212, 0.4) -15px 15px, rgba(167, 219, 212, 0.2) -20px 20px, rgba(167, 219, 212, 0.05) -25px 25px;
+}
+
+@media (max-height: 700px) {
+    .image {
+        display: none;
+    }
 }
 
 .glow {
