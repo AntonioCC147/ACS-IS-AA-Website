@@ -134,7 +134,7 @@ function App() {
 							<Container className='containerHome'>
 								<Row className="justify-content-md-center">
 									<Col sm={4} style={{marginRight: '10%', marginTop: "60px"}}>
-										<Card>
+										<Card className="cardH">
 											<Card.Img variant="top" src={review} />
 											<Card.Body>
 												<Card.Title>Insight Materii</Card.Title>
@@ -146,7 +146,7 @@ function App() {
 										</Card>
 									</Col>
 									<Col sm={4} style={{marginTop: "60px"}}>
-										<Card>
+										<Card className="cardH">
 											<Card.Img variant="top" src={drive}/>
 											<Card.Body>
 												<Card.Title>Drive-ul Minune</Card.Title>
@@ -165,7 +165,7 @@ function App() {
 							<Container className='containerHome'>
 								<Row className="justify-content-md-center">
 									<Col md={6} style={{paddingTop: "65px"}}>
-										<Card>
+										<Card className="cardH">
 											<img src={contribution} alt=""/>
 											<Card.Body>
 												<Card.Title>Contribuie</Card.Title>
