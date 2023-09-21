@@ -153,7 +153,7 @@ function App() {
 												<Card.Text>
 													Acest drive conține o mulțime de materiale adunate pe parcursul a mai multi ani, de la subiecte din anii trecuți la cheat-sheat-uri făcute de alți studenți.
 												</Card.Text>
-												<Button className='butonPagina2' target="blank" href="https://drive.google.com/drive/folders/1eMQ8SWBM3jM8GEOB7-n3FvW93oXZtg1Z?usp=drive_link">Click</Button>
+												<Button className='butonPagina2' target="blank" href="https://drive.google.com/drive/folders/1eMQ8SWBM3jM8GEOB7-n3FvW93oXZtg1Z?usp=sharing">Click</Button>
 											</Card.Body>
 										</Card>
 									</Col>
