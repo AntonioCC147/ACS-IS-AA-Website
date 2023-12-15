@@ -15,6 +15,10 @@
     color: #333;
     font-size: 20px;
     font-weight: 600;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .navbar-links .navbar-link1:hover {
@@ -30,8 +34,9 @@
 }
 
 .navbar-links {
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     flex-grow: 1;
 }
 
@@ -51,4 +56,8 @@
     color: #F24C3D !important;
 }
 
-
+.centerButton {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
