@@ -1,0 +1,37 @@
+[
+    {
+      "materie": "Maşini Electrice şi Acţionări",
+      "credite": "4",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Teoria Sistemelor Automate",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Analiza şi Sinteza Dispozitivelor Numerice",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Optimizări",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Sisteme Dinamice cu Evenimente Discrete",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    }
+]

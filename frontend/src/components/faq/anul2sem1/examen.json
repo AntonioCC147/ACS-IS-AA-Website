@@ -1,0 +1,37 @@
+[
+    {
+      "materie": "Circuite Electronice Liniare",
+      "credite": "4",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Programare Orientata pe Obiecte",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Metode Numerice",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Semnale si Sisteme",
+      "credite": "5",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    },
+    {
+      "materie": "Tehnici de Analiză în Ingineria Sistemelor",
+      "credite": "4",
+      "curs": "",
+      "seminar": "",
+      "descriere": ""
+    }
+]

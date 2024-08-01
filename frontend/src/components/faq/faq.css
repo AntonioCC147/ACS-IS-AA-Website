@@ -41,7 +41,8 @@
 }
 
 .card-answer{
-    margin-left: calc(3.05em);
+    margin: 10px;
+    text-align: justify;
 }
 
 .my-accordion-button {

@@ -1,5 +1,35 @@
 .backgroundMaterii {
+    padding-bottom: 25px;
+
     background: url(../../assets/materii/bg.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.selectYear {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.selectButton {
+    margin-left: 15px;
+    margin-right: 15px;
+
+    width: 100px;
+    height: 40px;
+}
+
+.noSelectButton {
+    margin-left: 15px;
+    margin-right: 15px;
+
+    width: 100px;
+    height: 40px;
+
+    color: #000000 !important;
+    background-color: #F8F9Fa !important;
+}
+
+.noSelectButton:hover {
+    background-color: #e0e0e0 !important;
 }
