@@ -21,11 +21,6 @@ export default function App() {
                         <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Pagini</h6>
                             <p>
-                                <a href="/#" target="blank" className="text-reset">
-                                    Home
-                                </a>
-                            </p>
-                            <p>
                                 <a href="/materii" target="blank" className="text-reset">
                                     Insight Materii
                                 </a>
