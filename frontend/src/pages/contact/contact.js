@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
 
-import { Modal } from 'react-bootstrap';
+import * as Yup from 'yup';
+import Swal from 'sweetalert2'
+
 import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from '@emailjs/browser';
 
@@ -32,7 +32,6 @@ const validationSchema = Yup.object().shape({
 
 export default function Contact() {
     const [isVerify, setIsVerify] = React.useState(false);
-    const [showModal, setShowModal] = useState(false);
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
     const sendEmail = (values) => {
@@ -49,14 +48,6 @@ export default function Contact() {
     function onChange(value) {
         setIsVerify(true);
     }
-
-    const handleModalShow = () => {
-        setShowModal(true);
-    };
-
-    const handleModalClose = () => {
-        setShowModal(false);
-    };
 
     return (
         <div className="backgroundContact">
@@ -76,7 +67,12 @@ export default function Contact() {
                         }
                         sendEmail(values);
                         resetForm();
-                        handleModalShow();
+                        Swal.fire({
+                            icon: "success",
+                            title: "Mesajul a fost trimis cu succes!",
+                            showConfirmButton: false,
+                            timer: 3000
+                        });
                     }}
                 >
                     {({ isSubmitting }) => (
@@ -118,18 +114,6 @@ export default function Contact() {
                                     </Button>
                                 </div>
                             </Row>
-                            <Modal show={showModal} onHide={handleModalClose}>
-                                <Modal.Header closeButton>
-                                    <Modal.Title>Email trimis!</Modal.Title>
-                                </Modal.Header>
-                                <Modal.Body>
-                                    <p>Email-ul a fost trimis cu succes!</p>
-                                    <p>În cel mai scurt timp posibil veți primi un răspuns la mesaj.</p>
-                                </Modal.Body>
-                                <Modal.Footer>
-                                    <Button variant="secondary" onClick={handleModalClose}>Închide</Button>
-                                </Modal.Footer>
-                            </Modal>
                         </Form>
                     )}
                 </Formik>
